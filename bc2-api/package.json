@@ -1,0 +1,26 @@
+{
+  "name": "bc2",
+  "version": "1.0.0",
+  "description": "bc2",
+  "main": "main.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5"
+  },
+  "scripts": {
+    "start": "nodemon main.js",
+    "seed": "node ./src/seed/seed.js",
+    "format": "prettier --write \"{,!(node_modules)/**/}*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}

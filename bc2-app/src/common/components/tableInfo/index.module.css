@@ -1,0 +1,74 @@
+.toolInfoContainer {
+  margin: 0 auto;
+}
+
+.toolCard {
+  background-color: wheat !important;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 1px #88878785;
+  border: none;
+}
+
+.toolCard h3 {
+  font-size: 17px !important;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.toolCard h4 {
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(51, 50, 50);
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.moreVoted {
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 0px 1px 5px 1px #88878785;
+  border: none;
+}
+
+.feature {
+  background-color: #21b963;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.feature:hover {
+  background-color: #158b48;
+  transition: 0.5s ease-out;
+}
+
+.bug {
+  background-color: #fc6f72;
+  width: 80%;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.bug:hover {
+  background-color: #c54043;
+  transition: 0.5s ease-out;
+}
+
+.hr {
+  margin-top: 20px !important;
+}

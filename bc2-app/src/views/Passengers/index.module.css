@@ -1,0 +1,98 @@
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  text-align: start;
+}
+
+.toolContainer {
+  display: flex;
+  flex: 1;
+}
+
+.orderContainer {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  margin: 0 auto;
+}
+
+hr {
+  border: 0.8px solid #c6c6c687;
+  height: 0 !important;
+  width: 90%;
+  margin: 15px !important;
+}
+
+.dataContainer h3 {
+  font-size: 25px;
+  margin-top: 10px;
+  color: rgb(75, 75, 75);
+}
+
+.dataContainer h1 {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.orderHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.orderHead h3 {
+  font-weight: bolder;
+}
+
+.add {
+  height: 60%;
+  align-self: center;
+  background-color: #21b963;
+  border: none;
+  padding: 0px 20px;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #0fc960;
+  transition: 0.5s ease-out;
+}
+
+.toggleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.toggle {
+  background-color: #718083;
+  height: 25px;
+}
+
+.toggle div {
+  height: 20px;
+}
+
+.toggleView {
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  height: 20px;
+}
+
+.disabled {
+  background-color: transparent !important;
+  color: grey !important;
+  cursor: default !important;
+  border: transparent !important;
+  outline: none !important;
+}

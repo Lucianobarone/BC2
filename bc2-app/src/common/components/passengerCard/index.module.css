@@ -1,0 +1,145 @@
+.orderCardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+
+
+.card {
+  width: 350px;
+  margin: 13px;
+  box-shadow: -2px 2px 0px 0px #dfdfdf;
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: -2px 2px 10px 0.5px #888787a4;
+  transform: scale(1.01);
+  transition: 0.45s ease;
+}
+
+
+
+.card div:nth-child(2) {
+  padding: 15px;
+}
+
+
+.ticketCode {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 10px;
+  color: rgb(145, 145, 145);
+}
+
+
+.card div:nth-child(1) {
+  font-size: 25px;
+  color: #21b963;
+}
+
+.votesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 7px;
+  font-size: 18px;
+}
+
+.votesContainer p {
+  margin: 0;
+  background-color: #ced5d6;
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.votesContainer button {
+  margin: 0;
+  background-color: #3294f1;
+  padding: 5px;
+  width: 45%;
+  text-align: center;
+  border-radius: 7px;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.vote:hover {
+  background-color: #1f65a7;
+  transform: scale(1.02);
+  transition: 0.5s ease;
+}
+
+.vote:active {
+  background-color: #489dec;
+  transform: scale(0.95);
+}
+
+/* :::::: TOGGLE :::::: */
+
+.cardToggle {
+  width: 350px;
+  margin: 13px;
+  box-shadow: -2px 2px 0px 0px #dfdfdf;
+  border-radius: 10px;
+}
+
+.orderCardContainerToggle {
+  display: flex;
+  flex-direction: column;
+height: 50px;
+  margin-bottom: 35px;
+
+}
+
+
+.orderCardContainerToggle div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-between;
+}
+.orderCardContainerToggle div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  flex: 1.2;
+  margin-left: 10px;
+}
+
+.orderCardContainerToggle .ticketCode {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 5px;
+  width: 150px;
+}
+
+.orderCardContainerToggle .votesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 18px;
+  width: 60%;
+}
+
+
+.orderCardContainerToggle .card:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: none;
+  box-shadow: -2px 2px 0px 0px #d1d1d1;
+  transition: 0.2s ease-in;
+}
+
+.disabled {
+  background-color: transparent !important;
+  color: grey !important;
+  cursor: default !important;
+  border: transparent !important;
+  outline: none !important;
+}
